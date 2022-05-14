@@ -1,0 +1,103 @@
+.container .top-50 {
+    background-color:#273549;
+}
+
+.bground {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 642px;
+    top: 64px;
+
+    background: #1F2937;
+    color: white;
+}
+
+.script {
+    /* text-xl/leading-7/font-normal */
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Medium grey */
+
+    color: rgb(156, 156, 158);
+
+}
+
+hr {
+    position: absolute;
+    right: 50px;
+    width: 450px;
+}
+
+.title2 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #4ADF86;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+
+}
+
+#pass1,
+#pass2,
+#pass3,
+#pass4 {
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    color: #55F991;
+}
+
+.numConvert {
+    /* number to convert */
+    position: absolute;
+    width: 400px;
+    height: 51.23px;
+    left: 80px;
+    top: 202px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 22px;
+    /* or 25% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: transparent;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(74, 74, 120);
+
+}
+
+.numConvert:focus {
+    border-color: lightgreen;
+}
+
+footer {
+    color: white;
+    font-weight: lighter;
+    transform: translate(31.5em,39em);
+}
+
+.footerSpan {
+    color: #55F991;
+}
